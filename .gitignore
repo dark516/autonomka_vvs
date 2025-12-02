@@ -1,0 +1,4 @@
+# Ignore build artifacts and other unnecessary files from ROS2 packages
+/**/build
+/**/install
+/**/log
