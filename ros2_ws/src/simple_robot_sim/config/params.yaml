@@ -1,0 +1,21 @@
+simulator_node:
+  ros__parameters:
+    field_size: 10.0
+    window_size: 1000
+    publish_rate: 30.0
+    robot:
+      max_linear_speed: 2.0
+      max_angular_speed: 3.0
+      acceleration_coef: 0.2
+      deceleration_coef: 0.3
+      slip_coefficient: 0.1
+      length: 0.8  # перед-зад
+      width: 0.7   # боковые стороны
+
+data_publisher_node:
+  ros__parameters:
+    publish_rate: 30.0
+    enable_test_data: false  # по умолчанию выключено
+    enemy:
+      default_x: 3.0
+      default_y: 3.0
